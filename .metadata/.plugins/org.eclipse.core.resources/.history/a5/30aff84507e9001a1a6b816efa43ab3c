@@ -1,0 +1,8 @@
+package kr.or.connect.BusinessCard.dto;
+
+public class BusinessCard {
+	private String name;
+	private String phone;
+	private String companyName;
+	private Date createDate;
+}

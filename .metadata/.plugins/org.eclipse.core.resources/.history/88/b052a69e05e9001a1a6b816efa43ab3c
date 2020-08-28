@@ -1,0 +1,5 @@
+package kr.or.connect.BusinessCard.dto;
+
+public class BusinessCard {
+
+}

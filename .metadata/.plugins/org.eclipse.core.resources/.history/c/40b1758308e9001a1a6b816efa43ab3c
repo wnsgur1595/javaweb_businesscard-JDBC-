@@ -1,0 +1,18 @@
+package kr.or.connect.BusinessCard.dao;
+
+import kr.or.connect.BusinessCard.dto.BusinessCard;
+
+public class BusinessCardDao {
+	public BusinessCard getBusinessCard(String name) {
+		BusinessCard bc = null;
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		
+		
+		
+		
+		return bc;
+	}
+
+}

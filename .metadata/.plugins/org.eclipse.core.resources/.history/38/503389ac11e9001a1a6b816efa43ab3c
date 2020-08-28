@@ -1,0 +1,7 @@
+package kr.or.connect.BusinessCard;
+
+public class BusinessCardManager {
+	public static void main(String[] args) {
+		
+	}
+}

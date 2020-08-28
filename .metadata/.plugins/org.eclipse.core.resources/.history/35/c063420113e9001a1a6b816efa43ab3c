@@ -1,0 +1,39 @@
+package kr.or.connect.BusinessCard;
+
+import java.util.Scanner;
+
+public class BusinessCardManager {
+	public static void main(String[] args) {
+		while(true) {
+			Scanner sc = new Scanner(System.in);
+			int menu = 0;
+			System.out.println("--------------------");
+			System.out.println("1. 명함 입력");
+			System.out.println("2. 명함 검색");
+			System.out.println("3. 종료");
+			System.out.println("--------------------");
+			System.out.print("메뉴를 입력하세요 : ");
+			menu = sc.nextInt();
+
+			if(menu == 1) {
+				String name = "";
+				String phone = "";
+				String companyName = "";
+				System.out.print("이름을 입력하세요 : ");
+				name = sc.next();
+			}
+			else if(menu == 2) {
+				
+			}
+			else if(menu == 3) {
+				System.out.println("프로그램을 종료합니다. :-)");
+				sc.close();
+				return;
+			}
+			else {
+				System.out.println("잘못된 입력입니다.");
+				sc.close();
+			}
+		}
+	}
+}
